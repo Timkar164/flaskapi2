@@ -922,8 +922,7 @@ def defaulfiles():
  '2021.05.14. СПБГУ.zip',
  '2021.05.14. ТПУ.zip',
  '2021.05.14. Финуниверситет.zip',
- '2021.05.14. ЮУрГУ.zip',
- '2021.05.17. НГУ.zip']
+ '2021.05.14. ЮУрГУ.zip']
     arg = dict(request.args)
     ids = arg['ids']
     for i in range(len(far)):
