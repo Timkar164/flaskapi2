@@ -891,8 +891,8 @@ def indexxx():
               meen_f+=j['float']
          meen_p=meen_p/sh
          meen_f=meen_f/sh
-         PRinfo['meenp']=meen_p
-         PRinfo['meenf']=meen_f
+         PRinfo['meenp']=int(meen_p)
+         PRinfo['meenf']=int(meen_f*100)/100
          ttt = ["","AR", "Аналитик данных", "Распределённые системы", "Геймдизайнер", "Образовательный дата-инженер"]
          PRinfo['taks']=ttt[int(taksonom)]
          
@@ -966,8 +966,8 @@ def defaulfiles():
               meen_f+=j['float']
          meen_p=meen_p/sh
          meen_f=meen_f/sh
-         PRinfo['meenp']=meen_p
-         PRinfo['meenf']=meen_f
+         PRinfo['meenp']=int(meen_p)
+         PRinfo['meenf']=int(meen_f*100)/100
          ttt = ["","AR", "Аналитик данных", "Распределённые системы", "Геймдизайнер", "Образовательный дата-инженер"]
          PRinfo['taks']=ttt[int(taksonom)]
     prd = []
